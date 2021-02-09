@@ -1,0 +1,406 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6241a156c2cdb7a41a533eeefa6ab7cd, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: dd58de9bf4a93948937c28025ff35641
+    GuidInternal: 
+    m_lastTime: -8585888807441906130
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 1e56aa17041174418745f045891c5ec9
+    GuidInternal: 
+    m_lastTime: -8585887765148005373
+    List:
+    - name: ambienceBus
+      guid: 6281946bb3e3da45ae270bdef8a4bd55
+      id: 612772313
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: ambienceBus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\ambienceBus
+    - name: mainCharBus
+      guid: 080a53d2251dbb498edc7771ae5c53d9
+      id: 2801132252
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: mainCharBus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\mainCharBus
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+    - name: reverb
+      guid: e54db9a707ea2e45b30ea4faea246fac
+      id: 348963605
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: reverb
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\reverb
+    - name: stingersBus
+      guid: a2497df08b75dc41833bc9b37e009576
+      id: 2866909318
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: stingersBus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\stingersBus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: a73eb55bd8b4c943b00e026eaa8ae703
+    GuidInternal: 
+    m_lastTime: -8585887812864260339
+    List:
+    - name: sbPanelka
+      guid: 56abcf54eedd4c45a5fb8d78ead9cdce
+      id: 3344672576
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sbPanelka
+        ObjectType: 7
+      Path: Default Work Unit\sbPanelka
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: cf8a179c18bacc4f81032455ae3b1ad5
+    GuidInternal: 
+    m_lastTime: -8585887812942670712
+    List:
+    - name: ambPadikIndoor
+      guid: 224b079ef555d4429edf0ddfc3f80e3a
+      id: 764582391
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ambPadikIndoor
+        ObjectType: 3
+      Path: Default Work Unit\ambPadikIndoor
+      maxAttenuation: 10
+      maxDuration: -1
+      minDuration: -1
+    - name: ambPadikOutdoor
+      guid: 955c4d1f21bcf3499b81054604243c01
+      id: 47821602
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ambPadikOutdoor
+        ObjectType: 3
+      Path: Default Work Unit\ambPadikOutdoor
+      maxAttenuation: 10
+      maxDuration: -1
+      minDuration: -1
+    - name: drones
+      guid: 3d9d6557c77f23459f53af31860364e8
+      id: 3317944528
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: drones
+        ObjectType: 3
+      Path: Default Work Unit\drones
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: footsteps
+      guid: 6b3d69166a7b2544b265d8e33fee65e6
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: footsteps
+        ObjectType: 3
+      Path: Default Work Unit\footsteps
+      maxAttenuation: 0
+      maxDuration: 0.622083
+      minDuration: 0.495625
+    - name: jumpDown
+      guid: d1b6a568067f6d46b260f4064b632fd4
+      id: 3429062717
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: jumpDown
+        ObjectType: 3
+      Path: Default Work Unit\jumpDown
+      maxAttenuation: 0
+      maxDuration: 4.620042
+      minDuration: 1
+    - name: jumpUp
+      guid: eb3012fe1d90e446a8f05c4235377153
+      id: 1844425226
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: jumpUp
+        ObjectType: 3
+      Path: Default Work Unit\jumpUp
+      maxAttenuation: 0
+      maxDuration: 0.620583
+      minDuration: 0.620583
+    - name: lights
+      guid: 7ad3d1dc2726774d9d4d53271983c17e
+      id: 3192784746
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: lights
+        ObjectType: 3
+      Path: Default Work Unit\lights
+      maxAttenuation: 10
+      maxDuration: -1
+      minDuration: -1
+    - name: playall
+      guid: 26306f7b6813474e9ac85574f56e6d0e
+      id: 1820532916
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: playall
+        ObjectType: 3
+      Path: Default Work Unit\playall
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: sfxDoors
+      guid: aadab85340e7a8418f8a9154f098dfc9
+      id: 4240674949
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfxDoors
+        ObjectType: 3
+      Path: Default Work Unit\sfxDoors
+      maxAttenuation: 15
+      maxDuration: -1
+      minDuration: -1
+    - name: sfxFalling
+      guid: ed3d1b0d3c27a548a1ecc127c7301bb3
+      id: 105102003
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfxFalling
+        ObjectType: 3
+      Path: Default Work Unit\sfxFalling
+      maxAttenuation: 0
+      maxDuration: 2.365813
+      minDuration: 2.243863
+    - name: sfxMusor
+      guid: 72d95a46a3f3864893c4c2d4aefea589
+      id: 343250176
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfxMusor
+        ObjectType: 3
+      Path: Default Work Unit\sfxMusor
+      maxAttenuation: 15
+      maxDuration: 53.611683
+      minDuration: 47.611683
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: bff9b5d7b9f84b4f822362aa2748c515
+    GuidInternal: 
+    m_lastTime: -8585887779653145075
+    List:
+    - name: azimuth
+      guid: 620601911689ec41aa6352acb87bb53f
+      id: 1437246667
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: azimuth
+        ObjectType: 13
+      Path: Default Work Unit\azimuth
+    - name: councussionDuck
+      guid: f4fe253444d20c46aea69a7adb496238
+      id: 3014409569
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: councussionDuck
+        ObjectType: 13
+      Path: Default Work Unit\councussionDuck
+    - name: elevation
+      guid: 3f2f300a5e57da40b2b40d07dfe3f42d
+      id: 2141048674
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: elevation
+        ObjectType: 13
+      Path: Default Work Unit\elevation
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: d015e107cbd23f43bf51c404e6271630
+    GuidInternal: 
+    m_lastTime: -8585887888197625442
+    List:
+    - name: allSounds
+      guid: f3b399da60ba794eb1c48cd0b1d2817d
+      id: 3278463154
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: allSounds
+        ObjectType: 9
+      Path: Default Work Unit\allSounds
+      values:
+      - name: None
+        guid: e94ad504c5082344a82b93ae14bde10d
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: off
+        guid: 9df7b0d7ff9065438a69a119bf3a7289
+        id: 930712164
+        PathAndIcons:
+        - ElementName: off
+          ObjectType: 8
+      - name: on
+        guid: d47363b1f434a7478d404801f29cb97a
+        id: 1651971902
+        PathAndIcons:
+        - ElementName: on
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: floorType
+      guid: 1724461c2c10314fae8a79b24af54343
+      id: 1808717673
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: floorType
+        ObjectType: 9
+      Path: Default Work Unit\floorType
+      values:
+      - name: None
+        guid: 2bca1f20ca57c641bfeee208b8206531
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: plane
+        guid: 89d33702becac54db223e300065a1585
+        id: 114672797
+        PathAndIcons:
+        - ElementName: plane
+          ObjectType: 8
+      - name: stairs
+        guid: 1b81b75684764040986d73a748818c8c
+        id: 1289942167
+        PathAndIcons:
+        - ElementName: stairs
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 63569b65ff17bc4b90f43200cb27e403
+    GuidInternal: 
+    m_lastTime: -8585888149197647268
+    List:
+    - name: charVelocity
+      guid: bf65a6d1baca0941898c0081efb1fe3c
+      id: 1175963200
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: charVelocity
+        ObjectType: 11
+      Path: Default Work Unit\charVelocity
+      values:
+      - name: high
+        guid: e9d1ef7e156954428b62483ad64d8235
+        id: 3550808449
+        PathAndIcons:
+        - ElementName: high
+          ObjectType: 10
+      - name: low
+        guid: 95b275459ebdc145a87f4b7b3de949aa
+        id: 545371365
+        PathAndIcons:
+        - ElementName: low
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 153e6ddf0f0bab498c9a6a1aa0010eb1
+    GuidInternal: 
+    m_lastTime: -8585888807441606116
+    List: []
+  ExpandedItems:
+  - /sound-designer-test-template-main_WwiseProject
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

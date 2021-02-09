@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81fb957d63af77f41a00428a47eb1b3b, type: 3}
+  m_Name: 54CFAB56-DDEE-454C-A5FB-8D78EAD9CDCE
+  m_EditorClassIdentifier: 
+  objectName: sbPanelka
+  id: 3344672576
+  guid: 54CFAB56-DDEE-454C-A5FB-8D78EAD9CDCE
