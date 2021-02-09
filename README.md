@@ -1,4 +1,4 @@
-# sound-designer-test-mikhail-stasyuk
+# sound-designer-test
 
 Превью: https://youtu.be/aNWAiHyH8co
 
