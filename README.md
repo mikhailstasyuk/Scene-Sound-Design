@@ -1,4 +1,4 @@
-# sound-designer-test
+# Scene Sound Design & Implementation (Wwise, Unity)
 
 Превью: https://youtu.be/aNWAiHyH8co
 
